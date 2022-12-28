@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin.eot');
+    src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Thin.woff2') format('woff2'),
+        url('../fonts/Roboto-Thin.woff') format('woff'),
+        url('../fonts/Roboto-Thin.svg#Roboto-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans-Medium.eot');
+    src: url('../fonts/IBMPlexSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IBMPlexSans-Medium.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans-Medium.woff') format('woff'),
+        url('../fonts/IBMPlexSans-Medium.svg#IBMPlexSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('RobotoMono-Italic.eot');
+    src: url('RobotoMono-Italic.eot?#iefix') format('embedded-opentype'),
+        url('RobotoMono-Italic.woff2') format('woff2'),
+        url('RobotoMono-Italic.woff') format('woff'),
+        url('RobotoMono-Italic.svg#RobotoMono-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('HankenGrotesk-ThinItalic.eot');
+    src: url('HankenGrotesk-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('HankenGrotesk-ThinItalic.woff2') format('woff2'),
+        url('HankenGrotesk-ThinItalic.woff') format('woff'),
+        url('HankenGrotesk-ThinItalic.svg#HankenGrotesk-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+
+
