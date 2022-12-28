@@ -562,3 +562,21 @@
   /* color: var(--main-color); */
   font-family: "Roboto";
 }
+.fa-facebook {
+  color: #fff;
+  font-size: 35px;
+}
+.fa-instagram {
+  color: #fff;
+  font-size: 35px;
+}
+.fa-google {
+  color: #fff;
+  font-size: 35px;
+}
+.footer-social-media {
+  margin-top: 170px;
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
