@@ -1,4 +1,24 @@
 @media (max-width: 1118px) {
+  .header-background {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .header-background::after {
+    border-radius: 0px;
+  }
+  .about-us {
+    margin-right: 15px;
+    padding-bottom: 83px;
+  }
+  .navigation-class {
+    margin-right: 15px;
+  }
+  .about-us-info {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.59rem;
+  }
   .grid-block {
     grid-template-columns: 55%;
     justify-content: center;
@@ -36,7 +56,6 @@
     border-radius: 12px 12px 0 0;
     height: 20.24rem;
     margin-top: 24px;
-    padding-top: 14px;
   }
   .grid-item:nth-child(6) {
     border-top: none;
@@ -56,12 +75,27 @@
     height: 20.24rem;
     margin-top: 24px;
   }
+  .image-size1,
+  .image-size2 {
+    margin-left: 10px;
+  }
+  .grid-block {
+    justify-content: center;
+  }
+  .more-2 {
+    margin-top: 40px;
+  }
+  .footer-social-media {
+    padding-right: 24px;
+  }
+  .first-footer-titlee {
+    padding-left: 24px;
+  }
 }
 @media (max-width: 1083px) {
   .div-block {
     flex-direction: column;
     align-items: center;
-
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -70,5 +104,26 @@
   }
   .div-item {
     margin-top: 24px;
+    justify-content: center;
+  }
+  .image-size1,
+  .image-size2 {
+    width: 33.625rem;
+    margin-left: 14px;
+  }
+}
+@media (max-width: 1027px) {
+  .image-size1,
+  .image-size2 {
+    width: 27.625rem;
+    height: 100%;
+  }
+}
+@media (max-width: 830px) {
+  .about-us-info {
+    max-width: 33.75rem;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.49rem;
   }
 }

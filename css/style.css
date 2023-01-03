@@ -207,7 +207,6 @@
 .text-on-image {
   position: absolute;
   color: #fff;
-  /* font-family: 'Roboto'; */
   top: 8px;
   left: 15px;
   font-size: 25px;
@@ -296,7 +295,6 @@
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto auto auto;
-  justify-content: center;
 }
 .third-section-div {
   max-width: var(--main-wight);
