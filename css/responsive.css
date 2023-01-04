@@ -24,7 +24,6 @@
   }
   .grid-block {
     grid-template-columns: 55%;
-    justify-content: center;
     row-gap: 0px;
   }
   .grid-item:nth-child(2) {
@@ -120,6 +119,7 @@
   .image-size2 {
     width: 30.625rem;
     height: 100%;
+    margin-left: 25px;
   }
   .navigation-class {
     display: none;
@@ -132,11 +132,62 @@
     font-family: "Roboto";
   }
 }
+@media (max-width: 950px) {
+  .image-size1,
+  .image-size2 {
+    width: 28.625rem;
+    height: 100%;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 895px) {
+  .image-size1,
+  .image-size2 {
+    width: 24.625rem;
+    height: 100%;
+    margin-left: 20px;
+  }
+}
 @media (max-width: 830px) {
   .about-us-info {
     max-width: 33.75rem;
     width: 100%;
     margin: 0 auto;
     font-size: 1.49rem;
+  }
+}
+@media (max-width: 811px) {
+  .grid-item {
+    width: 26.625rem;
+  }
+  .image-size1,
+  .image-size2 {
+    margin-left: 14px;
+  }
+  .text-class {
+    font-size: 14px;
+  }
+}
+@media (max-width: 728px) {
+  .fa-brands {
+    font-size: 25px;
+  }
+  .grid-item {
+    width: 24.625rem;
+  }
+  .image-size1,
+  .image-size2 {
+    margin-left: 14px;
+    width: 22.625rem;
+  }
+}
+@media (max-width: 577px) {
+  .grid-item {
+    width: 22.525rem;
+  }
+  .image-size1,
+  .image-size2 {
+    margin-left: 14px;
+    width: 20.525rem;
   }
 }

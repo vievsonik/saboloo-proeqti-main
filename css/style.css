@@ -547,6 +547,9 @@
   width: 150px;
   justify-content: space-between;
 }
+.fa-instagram {
+  color: var(--main-color);
+}
 /* burger-bar */
 .mobile-container {
   display: flex;
