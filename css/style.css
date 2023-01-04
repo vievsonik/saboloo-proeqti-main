@@ -433,7 +433,6 @@
 .fourth-conteiner {
   display: flex;
   justify-content: flex-end;
-  /* position: absolute; */
 }
 .about-us {
   font-size: 3.063rem;
