@@ -19,6 +19,9 @@
     margin: 0 auto;
     font-size: 1.59rem;
   }
+  .first-main-title {
+    padding-left: 15px;
+  }
   .grid-block {
     grid-template-columns: 55%;
     justify-content: center;
@@ -117,6 +120,16 @@
   .image-size2 {
     width: 30.625rem;
     height: 100%;
+  }
+  .navigation-class {
+    display: none;
+  }
+  .mobile-container {
+    display: block;
+  }
+  .burger-class {
+    font-size: 11px;
+    font-family: "Roboto";
   }
 }
 @media (max-width: 830px) {

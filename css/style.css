@@ -547,3 +547,52 @@
   width: 150px;
   justify-content: space-between;
 }
+/* burger-bar */
+.mobile-container {
+  display: flex;
+  max-width: 480px;
+  background-color: #555;
+  margin-right: 14px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  width: 90px;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 2;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  margin-bottom: 19px;
+}
+.mobile-container {
+  display: none;
+}
